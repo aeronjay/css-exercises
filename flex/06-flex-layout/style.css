@@ -24,3 +24,52 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #717171;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 70px;
+  padding: 10px 20px;
+}
+.content{
+  display: flex;
+  justify-content: baseline;
+  align-items:center;
+  flex-direction: column;
+  gap: 10px;
+}
+.content button{
+  padding: 10px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  min-height: 50px;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: #eee;
+}
+li:last-child{
+  margin-left: 30px;
+}
